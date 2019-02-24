@@ -1,0 +1,412 @@
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.d-flex{
+    display: flex;
+}
+.conteiner{
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+header{
+    
+}
+.border{
+    border:1px solid;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(240,244,247);
+/*    font-family: 'Open Sans', sans-serif;*/
+}
+
+.header-bag{
+    background: url(../img/Header_bag.png) no-repeat center top; 
+    padding-top: 20px;
+}
+.first-row{
+    
+}
+.header-logo{
+    background: url(../img/Logo-header.png) no-repeat top center;
+    width: 240px;
+    height: 90px;
+/*    display: inline-block;*/
+/*    position: relative;*/
+}
+.contact{
+/*    display: inline-block;*/
+    position: relative;
+    margin-left: 50px;    
+}
+.contact__first{
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 15px;
+    position: absolute;
+/*    padding-top:4px;*/
+/*    line-height: 20px;*/
+}
+.contact__second{
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    margin-top: 13px;
+    margin-left: 22px;
+}
+.contact__bell{
+    color:#fff;
+    font-size: 14px;
+    margin-left: 4px;
+}
+.menu{
+/*    display: inline-block;*/
+/*    position: relative;*/
+    margin-left: auto;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+}
+.menu__elements{
+    margin-top: 13px;
+    margin-right: 28px;
+    
+}
+.menu__elements-element a{
+    color:#000;
+    font-weight: 700;
+/*    display: inline-block;*/
+    text-decoration: none;
+   
+}
+.menu__elements-element{
+    margin-left: 18px;
+    
+}
+.btn{
+    display: inline-block;
+    width: 210px;
+    height: 40px;
+    background: #fff;
+    border-radius: 4px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.search{
+    color:#fff;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 18px;
+    position: relative;
+}
+.search__input{
+    background: url(../img/Search.png) no-repeat top right , #fff;
+/*    background: rgba(238, 238, 238, 0.19);*/
+    background-position: right 13px center;
+    border-radius: 5px;
+    border:none;
+    height: 48px;
+/*    margin-right: 60px;*/
+    width: 1080px;
+    margin-left: 13px;  
+    padding-left: 13px;
+}
+.search:before{
+    content: "";
+    display: block;
+    background: #fff;
+    width: 10px;
+    height: 10px;   
+    position: absolute;
+    margin-top:20px; 
+    margin-left:58px; 
+    transform: rotate(45deg);
+}
+.headline{
+    text-align: center;
+    padding-bottom: 170px;
+}
+.headline_h1{
+    margin-top:40px;
+    color:#fff;
+    font-size: 42px;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+.headline_font-size{
+    font-size: 16px;
+}
+.headline__href{
+    color:#fff;
+}
+.headline_circle{
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+.content{
+    padding: 60px;
+    background: #fff;
+    margin-top: -150px;
+    
+}
+.content_left{
+/*    display:inline-block;*/
+    width: 790px;
+    display: inline-block;
+}
+select:focus{
+    border-bottom: 1px solid rgb(182,17,17);
+}
+.text_input input:focus{
+     outline: none;
+     border-bottom: 1px solid rgb(182,17,17);
+     
+}
+.text_input:hover{
+    color: #b61111;
+}
+.content_left_input{
+    width: 780px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    padding-left: 10px;
+}
+.content_left_font{
+    font-size: 14px;
+    margin-top: 6px;
+    
+}
+.content_left_option{
+    margin-top: 40px;
+}
+.form{
+    color: #acacac;
+}
+.checkbox{
+    width: 700px;
+}
+.checkbox_hint{
+    color: rgb(47,95,191);
+    position: relative;
+    overflow: hidden;
+}
+.checkbox_hint:hover::after{
+    content:"На данный момент в связи с изменениями в законодательстве для осуществления официальных запросов в государственные службы при помощи онлайн-служб требуется получить ЭЦП для портала Росреестра";
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    padding: 5px 10px;
+    background: rgb(51,51,71);
+    text-align: left;
+    width: 390px;  
+    color: #fff;
+    font-size: 16px;
+/*    border: 1px solid;*/
+}
+/*
+.figura:hover::after{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    bottom: 0;
+    z-index: 2;
+}
+*/
+.checkbox .content_left_font{
+    display: inline-block;
+}
+.content_left_checkbox{
+    display: inline-block;
+    margin: 10px 0;
+}
+.content_right{
+    display: inline-block;
+    float: right;
+    width: 340px;
+    background: rgb(239,239,244);
+    border-radius: 8px;
+/*    padding: 40px;*/
+}
+.content_right_padding{
+    margin: 30px 40px;
+}
+.content_right_cost{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+.content_right_btn{
+    background: rgb(47,95,191);
+    border-radius: 4px;
+    text-align: center;
+    line-height: 48px;
+    color:#fff;
+    font-size:18px;
+    width: 260px;
+    height: 48px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.content_right_text1{
+    margin-bottom: 20px;
+    font-size:19px;
+}
+.content_right_text2{
+    margin-bottom: 20px;
+    font-size:19px;
+}
+.content_right_text3{
+    font-size: 19px;
+}
+.footer{
+    padding-top: 40px;
+    vertical-align: top;
+/*    display: inline-block*/
+}
+.footer_left{
+    width: 300px;
+    display:inline-block;
+    vertical-align: top;
+    font-size: 20px;
+}
+.footer_logo{
+    background: url(../img/Logo-bottom.png) no-repeat;
+    width: 240px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+.footer_btn{
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    background: rgb(47,95,191);
+    text-align: center;
+    line-height: 40px;
+    color:#fff;
+    font-size: 20px;
+}
+.footer_center{
+    width: 670px;
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+}
+.footer_center_menu{
+    margin-bottom:30px;
+    font-size: 18px;
+/*    display: inline-block;*/
+     width: 100%;
+     text-align: justify;
+     -moz-text-align-last: justify;
+     text-align-last: justify;
+}
+.footer_center_menu:first-child{
+/*    margin-left: 0px;*/
+}
+.footer_center_menu_element{
+    text-decoration:underline;
+     display: inline-block;
+/*     margin-left: 12px;*/
+}
+
+.line{
+    width: 670px;
+    height: 1px;
+    border-top: 1px solid rgb(182,199,230);
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.footer_center_left{
+    text-decoration:underline;
+    font-size: 14px;
+    display: inline-block;
+    width: 195px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+.footer_center_center{
+    text-decoration:underline;
+    font-size: 14px;
+    display: inline-block;
+    width: 200px;
+    margin-left: 10px;
+    vertical-align: top;
+    
+}
+.footer_center_right{
+    text-decoration:underline;
+    font-size: 14px;
+    display: inline-block;
+    width: 190px;
+    float: right;
+    vertical-align: top;
+    
+}
+.footer_right{
+    width: 190px;
+    display:inline-block;
+    vertical-align: top;
+    float: right;
+}
+.footer_right_number{
+    font-weight: bold;
+    font-size: 24px;
+}
+.footer_rigth_Request_a_call{
+    display: block;
+    text-align: right;
+    font-size: 19px;
+}
+.footer_right_parking{
+    width: 100%;
+    height: 64px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer_right_img_parking{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background: rgb(0,122,255);
+    line-height: 64px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 60px;
+    color:#fff;
+}
+.footer_right_text_parking{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    padding-top:12px;    
+}
+.footer_right_text{
+    font-size: 18px;
+}
+/*
+.search__input{
+    background: url(../img/Search.png) no-repeat top right;    
+    background: url(../img/Search.png) no-repeat 3px 1px;
+    background-size: auto 90%;
+    width: 20px;
+    height: 20px;
+}
+
+
